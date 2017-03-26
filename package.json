@@ -1,0 +1,35 @@
+{
+  "name": "xray-connector-js",
+  "version": "1.0.0",
+  "description": "Tool for download cucumber test and upload cucumber results for xRay JIRA plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {"xrayconnect": "./index.js"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgileSim/xRayConnectorJS.git"
+  },
+  "keywords": [
+    "Cucumber",
+    "Jira",
+    "xRay",
+    "test",
+    "BDD",
+    "ATDD"
+  ],
+  "author": "Miguel A. Alonso",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AgileSim/xRayConnectorJS/issues"
+  },
+  "homepage": "https://github.com/AgileSim/xRayConnectorJS#readme",
+  "dependencies": {
+    "log4js": "^1.1.1",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "unzip": "^0.1.11",
+    "valid-url": "^1.0.9"
+  }
+}
